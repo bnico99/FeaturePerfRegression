@@ -35,7 +35,7 @@ void loadConfigFromArgv(int argc, char *argv[]) {
 
 void sendPackage(PackageData Data) {
   if (Iterations) {
-    fpcsc::sleep_for_secs(Iterations);
+    fpcsc::sleep_for_secs(2*Iterations);
   }
 
   if (UseCompression) {
